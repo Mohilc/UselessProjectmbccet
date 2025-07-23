@@ -1,4 +1,5 @@
-import { Heart, Mail, Phone, Instagram } from 'lucide-react';
+import { Heart, Mail, Phone } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 import tinkerHubLogo from '@/assets/tinkerhub-logo.png';
 
 const Footer = () => {
