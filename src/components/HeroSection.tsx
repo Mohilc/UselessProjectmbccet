@@ -61,13 +61,20 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button 
-              size="lg" 
-              className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-glow text-lg px-8 py-4 animate-glow-pulse"
-            >
-              <Zap className="mr-2" size={20} />
-              Register Now
-            </Button>
+                <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSftwP4054v0L0PA30kjoXIVxOlaCPGDvyIDhBISOXJCwwNM1w/viewform?usp=sharing&ouid=101850917464284594362"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button 
+        size="lg" 
+        className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-glow text-lg px-8 py-4 animate-glow-pulse"
+      >
+        <Zap className="mr-2" size={20} />
+        Register Now
+      </Button>
+    </a>
+
             
             <Button 
               variant="outline" 
