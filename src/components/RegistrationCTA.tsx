@@ -125,13 +125,20 @@ const RegistrationCTA = () => {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: '1s' }}>
-                <Button 
-                  size="lg"
-                  className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-glow text-xl px-12 py-6 animate-glow-pulse"
-                >
-                  <Zap className="mr-3" size={24} />
-                  Register Now - It's Free!
-                </Button>
+             <a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSftwP4054v0L0PA30kjoXIVxOlaCPGDvyIDhBISOXJCwwNM1w/viewform?usp=sharing&ouid=101850917464284594362"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button
+    size="lg"
+    className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-glow text-xl px-12 py-6 animate-glow-pulse"
+  >
+    <Zap className="mr-3" size={24} />
+    Register Now – It's Free!
+  </Button>
+</a>
+
                 
                 <Button 
                   variant="outline"
