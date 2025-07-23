@@ -53,13 +53,21 @@ const RegistrationCTA = () => {
             </div>
           </div>
 
-          <Button 
-            className="w-full bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-glow"
-            size="sm"
-          >
-            <Zap className="mr-2" size={16} />
-            Register Now
-          </Button>
+         <a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSftwP4054v0L0PA30kjoXIVxOlaCPGDvyIDhBISOXJCwwNM1w/viewform?usp=sharing&ouid=101850917464284594362"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full block" // Make sure the <a> wraps correctly
+>
+  <Button 
+    className="w-full bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-glow"
+    size="sm"
+  >
+    <Zap className="mr-2" size={16} />
+    Register Now
+  </Button>
+</a>
+
         </div>
       </div>
 
