@@ -89,14 +89,14 @@ const Footer = () => {
                   <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center">
                     <span className="text-primary font-semibold text-sm">👤</span>
                   </div>
-                  <span className="text-foreground font-medium">Chriss Philip Saji</span>
+                  <span className="text-foreground font-medium">Shaun david prince</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center">
                     <Phone className="text-primary" size={16} />
                   </div>
                   <a href="tel:+918826173157" className="text-foreground hover:text-primary transition-colors">
-                    +91 8826173157
+                    +91 8289867709
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -104,7 +104,8 @@ const Footer = () => {
                     <Mail className="text-primary" size={16} />
                   </div>
                   <a href="mailto:chrissattasseril16@gmail.com" className="text-foreground hover:text-primary transition-colors break-all">
-                    chrissattasseril16@gmail.com
+                    princeshaundavid@gmail.com
+
                   </a>
                 </div>
                 <div className="text-center mt-4 pt-3 border-t border-primary/20">
