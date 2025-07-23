@@ -57,7 +57,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8 animate-slide-in-right">
-            A first-of-its-kind 15-hour make-a-thon for boundless creativity!
+            Kerala's most creative make-a-thon where you can build anything—no experience needed!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -89,20 +89,20 @@ const HeroSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
             <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in">
               <Calendar className="text-primary mb-2 mx-auto" size={24} />
-              <p className="text-sm text-muted-foreground">August 1-2</p>
-              <p className="font-semibold">15-Hour Challenge</p>
+              <p className="text-sm text-muted-foreground">Multi-Campus</p>
+              <p className="font-semibold">Kerala-wide Event</p>
             </div>
             
             <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <Users className="text-primary mb-2 mx-auto" size={24} />
-              <p className="text-sm text-muted-foreground">Limited to</p>
-              <p className="font-semibold">150 Participants</p>
+              <p className="text-sm text-muted-foreground">For Students &</p>
+              <p className="font-semibold">Campus Leads</p>
             </div>
             
             <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in" style={{ animationDelay: '0.4s' }}>
               <Trophy className="text-primary mb-2 mx-auto" size={24} />
-              <p className="text-sm text-muted-foreground">Recognition for</p>
-              <p className="font-semibold">Top Creators</p>
+              <p className="text-sm text-muted-foreground">No Experience</p>
+              <p className="font-semibold">Needed</p>
             </div>
           </div>
         </div>

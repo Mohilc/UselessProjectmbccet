@@ -1,9 +1,8 @@
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
-import EventHighlights from '@/components/EventHighlights';
-import WhyParticipate from '@/components/WhyParticipate';
-import EventDetails from '@/components/EventDetails';
-import RegistrationCTA from '@/components/RegistrationCTA';
+import ParticipantInfo from '@/components/ParticipantInfo';
+import VenueHostInfo from '@/components/VenueHostInfo';
+import AboutSection from '@/components/AboutSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -11,10 +10,9 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
       <HeroSection />
-      <EventHighlights />
-      <WhyParticipate />
-      <EventDetails />
-      <RegistrationCTA />
+      <ParticipantInfo />
+      <VenueHostInfo />
+      <AboutSection />
       <Footer />
     </div>
   );
