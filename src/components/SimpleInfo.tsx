@@ -25,17 +25,6 @@ const SimpleInfo = () => {
               Register as Participant
             </Button>
           </div>
-
-          <div className="bg-gradient-card p-8 rounded-xl border border-primary/20 text-center">
-            <Building className="text-primary mb-4 mx-auto" size={48} />
-            <h3 className="text-2xl font-bold mb-4">Campus Hosts</h3>
-            <p className="text-muted-foreground mb-6">
-              Bring this event to your campus. Host students from across Kerala.
-            </p>
-            <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              Apply to Host
-            </Button>
-          </div>
         </div>
 
         {/* Story */}
