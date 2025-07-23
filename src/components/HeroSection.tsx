@@ -56,55 +56,23 @@ const HeroSection = () => {
 
           </h1>
           
-          <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8 animate-slide-in-right">
-            Kerala's most creative make-a-thon where you can build anything—no experience needed!
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8">
+            Build anything useless. No experience needed, just curiosity.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-                <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSftwP4054v0L0PA30kjoXIVxOlaCPGDvyIDhBISOXJCwwNM1w/viewform?usp=sharing&ouid=101850917464284594362"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <Button 
-        size="lg" 
-        className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-glow text-lg px-8 py-4 animate-glow-pulse"
-      >
-        <Zap className="mr-2" size={20} />
-        Register Now
-      </Button>
-    </a>
-
-            
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-lg px-8 py-4"
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSftwP4054v0L0PA30kjoXIVxOlaCPGDvyIDhBISOXJCwwNM1w/viewform?usp=sharing&ouid=101850917464284594362"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Learn More
-            </Button>
+              <Button size="lg" className="bg-gradient-primary text-lg px-8 py-4">
+                <Zap className="mr-2" size={20} />
+                Register Now
+              </Button>
+            </a>
           </div>
 
-          {/* Event Quick Info */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in">
-              <Calendar className="text-primary mb-2 mx-auto" size={24} />
-              <p className="text-sm text-muted-foreground">Multi-Campus</p>
-              <p className="font-semibold">Kerala-wide Event</p>
-            </div>
-            
-            <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              <Users className="text-primary mb-2 mx-auto" size={24} />
-              <p className="text-sm text-muted-foreground">For Students &</p>
-              <p className="font-semibold">Campus Leads</p>
-            </div>
-            
-            <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-              <Trophy className="text-primary mb-2 mx-auto" size={24} />
-              <p className="text-sm text-muted-foreground">No Experience</p>
-              <p className="font-semibold">Needed</p>
-            </div>
-          </div>
         </div>
       </div>
 
