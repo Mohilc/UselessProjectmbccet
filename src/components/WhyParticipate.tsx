@@ -72,12 +72,21 @@ const WhyParticipate = () => {
               Ready to Build the Impossible?
             </h3>
             <p className="text-muted-foreground mb-6">
-              Join fellow creators in the most exciting 18-hour journey of unlimited imagination.
+              Join fellow creators in the most exciting 15-hour journey of unlimited imagination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-glow text-primary-foreground px-8 py-3 rounded-lg font-semibold">
-                Register Now
-              </button>
+                     <button
+  className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-glow text-primary-foreground px-8 py-3 rounded-lg font-semibold"
+  onClick={() => {
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSftwP4054v0L0PA30kjoXIVxOlaCPGDvyIDhBISOXJCwwNM1w/viewform?usp=sharing&ouid=101850917464284594362",
+      "_blank"
+    );
+  }}
+>
+  Register Now
+</button>
+
               <button className="border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 px-8 py-3 rounded-lg font-semibold">
                 View Schedule
               </button>
