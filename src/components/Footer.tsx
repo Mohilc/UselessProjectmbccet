@@ -103,9 +103,9 @@ const Footer = () => {
           {/* Final CTA */}
           <div className="mt-8 text-center">
             <div className="inline-flex items-center space-x-2 bg-gradient-primary px-6 py-2 rounded-full text-primary-foreground font-semibold">
-              <span>🚀</span>
+              <span></span>
            
-              <span>⚡</span>
+              <span></span>
             </div>
           </div>
         </div>
