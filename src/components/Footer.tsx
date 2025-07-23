@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { name: 'Email', icon: Mail, href: 'mailto:contact@tinkerhubmbccet.com' },
+    { name: 'Email', icon: Mail, href: 'chrissattasseril16@gnmail.com' },
     { name: 'Location', icon: MapPin, href: '#' },
     { name: 'Phone', icon: Phone, href: 'tel:+91' }
   ];
@@ -104,7 +104,7 @@ const Footer = () => {
           <div className="mt-8 text-center">
             <div className="inline-flex items-center space-x-2 bg-gradient-primary px-6 py-2 rounded-full text-primary-foreground font-semibold">
               <span>🚀</span>
-              <span>Ready to build something useless? Register now!</span>
+           
               <span>⚡</span>
             </div>
           </div>
