@@ -56,7 +56,7 @@ const Footer = () => {
           {/* Contact & Social */}
           <div className="space-y-6">
             <div className="text-center">
-              <h4 className="text-lg font-bold text-foreground mb-2">For any queries, feel free to reach out to us!</h4>
+              <h4 className="text-lg font-bold text-foreground mb-4">For any queries, feel free to reach out to us!</h4>
               
               {/* Social Icons */}
               <div className="flex justify-center space-x-4 mb-6">
