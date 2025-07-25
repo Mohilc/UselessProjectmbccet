@@ -11,13 +11,13 @@ const SimpleInfo = () => {
           </h2>
         </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-  <div className="bg-gradient-card p-8 rounded-xl border border-primary/20 flex flex-col items-center justify-center text-center">
-    <Users className="text-primary mb-4" size={48} />
-    <h3 className="text-2xl font-bold mb-4">Participants</h3>
-    <p className="text-muted-foreground mb-6 max-w-md">
-      Students from any college can join. Build crazy, fun projects in 15 hours.
-    </p>
+        <div className="flex justify-center mb-16">
+          <div className="bg-gradient-card p-8 rounded-xl border border-primary/20 flex flex-col items-center justify-center text-center max-w-md">
+            <Users className="text-primary mb-4" size={48} />
+            <h3 className="text-2xl font-bold mb-4">Participants</h3>
+            <p className="text-muted-foreground mb-6">
+              Exclusive to MBCCET students. Build crazy, fun projects in 15 hours.
+            </p>
     <Button 
       className="bg-gradient-primary"
       onClick={() =>
